@@ -3,35 +3,26 @@ using CommunityToolkit.Mvvm.Input;
 using MAUILearningKit.Models;
 using System.Collections.ObjectModel;
 using System.Text.Json;
+using MAUILearningKit.Services;
 
 namespace MAUILearningKit.ViewModels
 {
     public partial class OrdersViewModel : ObservableObject
     {
-        private readonly HttpClient _httpClient = new() { BaseAddress = new Uri("https://localhost:5043/") };
+        private readonly ApiService _apiService = new();
 
         [ObservableProperty]
-        private ObservableCollection<Order> orders;
+        private List<Order> orders = [];
 
         [ObservableProperty]
-        private int customerId;
+        private Customer? selectedCustomer;
 
-        public OrdersViewModel()
+        [RelayCommand]
+        public async Task LoadOrdersAsync()
         {
-            Orders = [];
-            LoadOrdersCommand = new AsyncRelayCommand(LoadOrders);
-        }
-
-        public IAsyncRelayCommand LoadOrdersCommand { get; }
-
-        private async Task LoadOrders()
-        {
-            var response = await _httpClient.GetAsync($"orders?customerId={CustomerId}");
-            if (response.IsSuccessStatusCode)
+            if (SelectedCustomer != null)
             {
-                var jsonString = await response.Content.ReadAsStringAsync();
-                var ordersList = JsonSerializer.Deserialize<List<Order>>(jsonString);
-                Orders = new ObservableCollection<Order>(ordersList ?? []);
+                Orders = await _apiService.GetOrdersByCustomerAsync(SelectedCustomer.CustomerID);
             }
         }
     }

@@ -1,6 +1,8 @@
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/MAUILearningKit.runtimeconfig.json
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/MAUILearningKit.dll
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/MAUILearningKit.pdb
+/Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/CommunityToolkit.Maui.dll
+/Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/CommunityToolkit.Maui.Core.dll
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/CommunityToolkit.Mvvm.dll
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/Microsoft.Extensions.Configuration.dll
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/Microsoft.Extensions.Configuration.Abstractions.dll
@@ -16,6 +18,8 @@
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/Microsoft.Maui.dll
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/Microsoft.Maui.Essentials.dll
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/Microsoft.Maui.Graphics.dll
+/Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/zxing.dll
+/Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/ZXing.Net.MAUI.dll
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/ar/Microsoft.Maui.Controls.resources.dll
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/ca/Microsoft.Maui.Controls.resources.dll
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/cs/Microsoft.Maui.Controls.resources.dll
@@ -296,10 +300,6 @@
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/MAUILearningKit.pdb
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/MAUILearningKit.genruntimeconfig.cache
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/ref/MAUILearningKit.dll
-/Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/CommunityToolkit.Maui.dll
-/Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/CommunityToolkit.Maui.Core.dll
-/Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/zxing.dll
-/Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/ZXing.Net.MAUI.dll
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/Microsoft.Maui.Controls.HotReload.Forms.dll
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/Microsoft.VisualStudio.DesignTools.TapContract.dll

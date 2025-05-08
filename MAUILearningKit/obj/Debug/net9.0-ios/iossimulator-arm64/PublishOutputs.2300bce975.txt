@@ -33,6 +33,8 @@
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-ios/iossimulator-arm64/publish/../MAUILearningKit.app/zh-Hans/Microsoft.Maui.Controls.resources.dll
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-ios/iossimulator-arm64/publish/../MAUILearningKit.app/zh-Hant/Microsoft.Maui.Controls.resources.dll
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-ios/iossimulator-arm64/publish/../MAUILearningKit.app/runtimeconfig.bin
+/Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-ios/iossimulator-arm64/publish/../MAUILearningKit.app/CommunityToolkit.Maui.dll
+/Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-ios/iossimulator-arm64/publish/../MAUILearningKit.app/CommunityToolkit.Maui.Core.dll
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-ios/iossimulator-arm64/publish/../MAUILearningKit.app/CommunityToolkit.Mvvm.dll
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-ios/iossimulator-arm64/publish/../MAUILearningKit.app/Microsoft.Extensions.Configuration.dll
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-ios/iossimulator-arm64/publish/../MAUILearningKit.app/Microsoft.Extensions.Configuration.Abstractions.dll
@@ -48,10 +50,8 @@
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-ios/iossimulator-arm64/publish/../MAUILearningKit.app/Microsoft.Maui.dll
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-ios/iossimulator-arm64/publish/../MAUILearningKit.app/Microsoft.Maui.Essentials.dll
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-ios/iossimulator-arm64/publish/../MAUILearningKit.app/Microsoft.Maui.Graphics.dll
-/Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-ios/iossimulator-arm64/publish/../MAUILearningKit.app/Microsoft.Maui.Controls.HotReload.Forms.dll
-/Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-ios/iossimulator-arm64/publish/../MAUILearningKit.app/Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
-/Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-ios/iossimulator-arm64/publish/../MAUILearningKit.app/Microsoft.VisualStudio.DesignTools.TapContract.dll
-/Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-ios/iossimulator-arm64/publish/../MAUILearningKit.app/Microsoft.VisualStudio.DesignTools.XamlTapContract.dll
+/Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-ios/iossimulator-arm64/publish/../MAUILearningKit.app/zxing.dll
+/Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-ios/iossimulator-arm64/publish/../MAUILearningKit.app/ZXing.Net.MAUI.dll
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-ios/iossimulator-arm64/publish/../MAUILearningKit.app/MAUILearningKit.dll
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-ios/iossimulator-arm64/publish/../MAUILearningKit.app/Microsoft.CSharp.dll
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-ios/iossimulator-arm64/publish/../MAUILearningKit.app/Microsoft.VisualBasic.Core.dll

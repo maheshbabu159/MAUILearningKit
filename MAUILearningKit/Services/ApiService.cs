@@ -35,6 +35,13 @@ public class ApiService
         return JsonSerializer.Deserialize<List<Customer>>(responseContent, options) ?? [];
     }
 
+    public async Task<List<Order>> GetOrdersByCustomerAsync(string customerId)
+    {
+        var response = await _httpClient.GetAsync($"api/orders?customerId={customerId}");
+        var responseContent = await response.Content.ReadAsStringAsync();
+        return JsonSerializer.Deserialize<List<Order>>(responseContent, options) ?? [];
+    }
+
     public void Dispose()
     {
         throw new NotImplementedException();

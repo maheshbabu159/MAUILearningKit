@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MAUILearningKit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+c71a83aca6f23d2fb9595b6aae83e674cb9b051b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+57668100a712e69f330746d690f6ec8a9a15c072")]
 [assembly: System.Reflection.AssemblyProductAttribute("MAUILearningKit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MAUILearningKit")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
