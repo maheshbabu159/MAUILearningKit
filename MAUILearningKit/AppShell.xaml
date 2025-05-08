@@ -1,14 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <Shell
-    x:Class="MAUILearningKit.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:MAUILearningKit"
-    Title="MAUILearningKit">
-
+    xmlns:views="clr-namespace:MAUILearningKit.Views"
+    x:Class="MAUILearningKit.AppShell"
+    x:Name="AppShellInstance">
+    
     <ShellContent
         Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-
+        ContentTemplate="{DataTemplate views:CustomersPage}" />
 </Shell>

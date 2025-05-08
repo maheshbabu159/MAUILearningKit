@@ -1,4 +1,5 @@
-﻿namespace MAUILearningKit;
+﻿
+namespace MAUILearningKit;
 
 public partial class App : Application
 {
