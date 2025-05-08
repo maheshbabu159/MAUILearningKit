@@ -1,0 +1,39 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:MAUILearningKit.ViewModels"
+             xmlns:models="clr-namespace:MAUILearningKit.Models"
+             x:Class="MAUILearningKit.Views.OrderDetailsPage"
+             x:DataType="models:Order"
+             Title="Order Details">
+    <ContentPage.BindingContext>
+        <viewmodels:OrdersViewModel />
+    </ContentPage.BindingContext>
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="10">
+            <Label Text="Order ID:" FontAttributes="Bold" />
+            <Label Text="{Binding OrderID}" />
+
+            <Label Text="Customer ID:" FontAttributes="Bold" />
+            <Label Text="{Binding CustomerID}" />
+
+            <!-- <Label Text="Company Name:" FontAttributes="Bold" />
+            <Label Text="{Binding CompanyName}" /> -->
+
+            <Label Text="Ship Name:" FontAttributes="Bold" />
+            <Label Text="{Binding ShipName}" />
+
+            <!-- <Label Text="Ship Address:" FontAttributes="Bold" />
+            <Label Text="{Binding ShipAddress}" />
+
+            <Label Text="Ship City:" FontAttributes="Bold" />
+            <Label Text="{Binding ShipCity}" />
+
+            <Label Text="Order Date:" FontAttributes="Bold" />
+            <Label Text="{Binding OrderDate, StringFormat='{0:MMMM dd, yyyy}'}" />
+
+            <Label Text="Shipped Date:" FontAttributes="Bold" />
+            <Label Text="{Binding ShippedDate, StringFormat='{0:MMMM dd, yyyy}'}" /> -->
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -53,6 +53,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MAUILearningKit.Views.Cust
 build_metadata.AdditionalFiles.TargetPath = Views/CustomersPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views/CustomersPage.xaml
 
+[/Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/Views/OrderDetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUILearningKit.Views.OrderDetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/OrderDetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/OrderDetailsPage.xaml
+
 [/Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/Views/OrdersPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MAUILearningKit.Views.OrdersPage.xaml

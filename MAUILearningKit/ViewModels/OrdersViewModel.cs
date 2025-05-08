@@ -18,8 +18,10 @@ namespace MAUILearningKit.ViewModels
         private Customer? selectedCustomer;
 
         [RelayCommand]
-        public async Task LoadOrdersAsync()
+        public async Task LoadOrdersAsync(Customer? selectedCustomer)
         {
+            SelectedCustomer = selectedCustomer;
+        
             if (SelectedCustomer != null)
             {
                 Orders = await _apiService.GetOrdersByCustomerAsync(SelectedCustomer.CustomerID);

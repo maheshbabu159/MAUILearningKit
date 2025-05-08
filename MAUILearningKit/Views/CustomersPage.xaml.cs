@@ -1,5 +1,6 @@
 
 using MAUILearningKit.ViewModels;
+using MAUILearningKit.Models;
 
 namespace MAUILearningKit.Views
 {
@@ -10,10 +11,23 @@ namespace MAUILearningKit.Views
         {
             InitializeComponent();
         }
+        
         protected override async void OnAppearing()
         {
             base.OnAppearing();
             await ViewModel.LoadCustomersCommand.ExecuteAsync(null);
+        }
+
+        private async void OnCustomerSelected(object? sender, SelectionChangedEventArgs e)
+        {
+            if (e.CurrentSelection.FirstOrDefault() is Customer selectedCustomer)
+            {
+                await Shell.Current.GoToAsync(nameof(OrdersPage), 
+                    new Dictionary<string, object>
+                    {
+                        { "SelectedCustomer", selectedCustomer }
+                    });
+            }
         }
     }
 }

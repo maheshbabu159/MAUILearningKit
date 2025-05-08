@@ -3,7 +3,7 @@ namespace MAUILearningKit.Models;
 
 public class Order
 {
-    public int OrderId { get; set; }
+    public int OrderID { get; set; }
     public required string CustomerID { get; set; }
     public required string ShipCountry { get; set; }
     public required string ShipName { get; set; }

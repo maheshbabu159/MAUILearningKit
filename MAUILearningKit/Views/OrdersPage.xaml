@@ -3,12 +3,16 @@
              xmlns:viewmodels="clr-namespace:MAUILearningKit.ViewModels"
              xmlns:models="clr-namespace:MAUILearningKit.Models"
              x:Class="MAUILearningKit.Views.OrdersPage"
-             x:DataType="viewmodels:OrdersViewModel">
+             x:DataType="viewmodels:OrdersViewModel"
+             Title="Orders">
     <ContentPage.BindingContext>
         <viewmodels:OrdersViewModel />
     </ContentPage.BindingContext>
 
-    <CollectionView ItemsSource="{Binding Orders}">
+    <CollectionView 
+        ItemsSource="{Binding Orders}"
+        SelectionMode="Single"
+        SelectionChanged="OnOrderSelected">
         <CollectionView.ItemTemplate>
           <DataTemplate x:DataType="models:Order">
                 <Border
