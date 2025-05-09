@@ -44,6 +44,10 @@
 		<data>
 		km7arW01LDKD2LzrEduLpKYf69k=
 		</data>
+		<key>Resources/plus.png</key>
+		<data>
+		EiI7/zs7c4kfEB0fJaGysxDP9cc=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -72,14 +76,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AlbLVFmWMuzMgPcq7eMBvNE7oC+u4QtlHgkoGQYaFdk=
+			NazJuSjdK8/tBBKOEzaniUqSJw+eE3Mr3LiyKpnBQFo=
 			</data>
 		</dict>
 		<key>MonoBundle/MAUILearningKit.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mdNkd/vJm9M7VJ376XFBVFQLRMabi0a1mtmgfz/Awg4=
+			IPoFZM7JdYv2KPiMVhAEGAOxomp5tX5eq9en8JQ5B0M=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.CSharp.dll</key>
@@ -1739,6 +1743,13 @@
 			<key>hash2</key>
 			<data>
 			a/Og/prhaP+ksiVrPdm6zyz46YfBdrD0oFdkAveKI18=
+			</data>
+		</dict>
+		<key>Resources/plus.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eY4qzkGruim6ek7Ee8Rx957KRYBEPYcbBZtPeh6D+Mw=
 			</data>
 		</dict>
 	</dict>

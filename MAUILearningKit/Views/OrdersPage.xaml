@@ -8,26 +8,35 @@
     <ContentPage.BindingContext>
         <viewmodels:OrdersViewModel />
     </ContentPage.BindingContext>
-
-    <CollectionView 
-        ItemsSource="{Binding Orders}"
-        SelectionMode="Single"
-        SelectionChanged="OnOrderSelected">
-        <CollectionView.ItemTemplate>
-          <DataTemplate x:DataType="models:Order">
-                <Border
-                    Stroke="Gray"
-                    StrokeThickness="1"
-                    StrokeShape="RoundRectangle 10"
-                    Padding="10"
-                    Margin="5"
-                    BackgroundColor="Black">
-                    <VerticalStackLayout>
-                        <Label Text="{Binding ShipName}" FontSize="Medium" TextColor="White" />
-                        <Label Text="{Binding ShipCountry}" FontSize="Small" TextColor="White" />
-                    </VerticalStackLayout>
-                </Border>
-            </DataTemplate>
-        </CollectionView.ItemTemplate>
-    </CollectionView>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem 
+            Text="Add"
+            IconImageSource="plus.png"
+            Order="Primary"
+            Priority="0"
+            Clicked="OnAddOrderClicked" />
+    </ContentPage.ToolbarItems>
+     
+        <CollectionView 
+            ItemsSource="{Binding Orders}"
+            SelectionMode="Single"
+            SelectionChanged="OnOrderSelected">
+            <CollectionView.ItemTemplate>
+            <DataTemplate x:DataType="models:Order">
+                    <Border
+                        Stroke="Gray"
+                        StrokeThickness="1"
+                        StrokeShape="RoundRectangle 10"
+                        Padding="10"
+                        Margin="5"
+                        BackgroundColor="Black">
+                        <VerticalStackLayout>
+                            <Label Text="{Binding ShipName}" FontSize="Medium" TextColor="White" />
+                            <Label Text="{Binding ShipCountry}" FontSize="Small" TextColor="White" />
+                        </VerticalStackLayout>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+  
 </ContentPage>

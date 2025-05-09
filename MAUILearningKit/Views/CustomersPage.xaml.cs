@@ -11,7 +11,7 @@ namespace MAUILearningKit.Views
         {
             InitializeComponent();
         }
-        
+
         protected override async void OnAppearing()
         {
             base.OnAppearing();
@@ -29,5 +29,10 @@ namespace MAUILearningKit.Views
                     });
             }
         }
+        private async void OnAddCustomerClicked(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync(nameof(AddCustomerPage));
+        }
+    
     }
 }

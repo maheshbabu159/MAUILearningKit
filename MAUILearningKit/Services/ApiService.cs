@@ -42,6 +42,11 @@ public class ApiService
         return JsonSerializer.Deserialize<List<Order>>(responseContent, options) ?? [];
     }
 
+    public async Task<bool> AddCustomerAsync(Customer customer)
+    {
+        var response = await _httpClient.PostAsJsonAsync("api/customers", customer);
+        return response.IsSuccessStatusCode; // Returns true if the POST was successful
+    }
     public void Dispose()
     {
         throw new NotImplementedException();

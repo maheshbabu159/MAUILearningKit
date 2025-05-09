@@ -44,5 +44,9 @@ namespace MAUILearningKit.Views
                     });
             }
         }
+         private async void OnAddOrderClicked(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync(nameof(AddOrderPage));
+        }
     }
 }

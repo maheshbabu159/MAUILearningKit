@@ -8,6 +8,14 @@
     <ContentPage.BindingContext>
         <viewmodels:CustomersViewModel />
     </ContentPage.BindingContext>
+     <ContentPage.ToolbarItems>
+        <ToolbarItem 
+            Text="Add"
+            IconImageSource="plus.png"
+            Order="Primary"
+            Priority="0"
+            Clicked="OnAddCustomerClicked" />
+    </ContentPage.ToolbarItems>
 
     <CollectionView 
         ItemsSource="{Binding Customers}"

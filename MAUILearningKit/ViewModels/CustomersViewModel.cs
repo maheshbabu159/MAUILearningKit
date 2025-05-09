@@ -21,5 +21,19 @@ namespace MAUILearningKit.ViewModels
         {
             Customers = await _apiService.GetCustomersAsync();
         }
+        [RelayCommand]
+        public async Task AddCustomerAsync(Customer customer)
+        {
+            if (await _apiService.AddCustomerAsync(customer))
+            {
+                Customers.Add(customer);
+                // Handle success (navigate back, show success message)
+                
+                await Shell.Current.DisplayAlert("Error", "Failed to add customer.", "OK");
+
+                // For example, navigate back
+                _ = Shell.Current.GoToAsync(".."); // navigates back one page
+            }
+        }
     }
 }

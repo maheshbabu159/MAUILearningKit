@@ -24,7 +24,10 @@ namespace MAUILearningKit.ViewModels
         
             if (SelectedCustomer != null)
             {
-                Orders = await _apiService.GetOrdersByCustomerAsync(SelectedCustomer.CustomerID);
+                if (!string.IsNullOrEmpty(SelectedCustomer.CustomerID))
+                {
+                    Orders = await _apiService.GetOrdersByCustomerAsync(SelectedCustomer.CustomerID);
+                }
             }
         }
     }

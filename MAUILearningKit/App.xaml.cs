@@ -10,6 +10,8 @@ public partial class App : Application
 		InitializeComponent();
 		Routing.RegisterRoute(nameof(OrdersPage), typeof(OrdersPage));
 		Routing.RegisterRoute(nameof(OrderDetailsPage), typeof(OrderDetailsPage));
+		Routing.RegisterRoute(nameof(AddCustomerPage), typeof(AddCustomerPage));
+		Routing.RegisterRoute(nameof(AddOrderPage), typeof(AddOrderPage));
 	}
 
 	protected override Window CreateWindow(IActivationState? activationState)
