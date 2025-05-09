@@ -30,44 +30,15 @@ MAUILearningKit has the implementation to integrate api's developed in .NET ASP 
 - VS Code
 
 ## Setup
-1. **SQL Server on Mac**:
-    
-        $ docker pull mcr.microsoft.com/azure-sql-edge
-        
-        $ docker run -e "ACCEPT_EULA=1" -e "MSSQL_SA_PASSWORD=reallyStrongPwd123" -e "MSSQL_PID=Developer" -e "MSSQL_USER=SA" -p 1433:1433 -d --name=sql mcr.microsoft.com/azure-sql-edge
-        
-        $ docker container ls
 
-        # To stop use following command
-        $ docker container stop container_id
+1. **Create project**: 
 
-2. **Create project**: 
 
-        $ cd MAUILearningKit
-        $ dotnet add package Microsoft.EntityFrameworkCore.InMemory
-
-5. **Build**:
+2. **Build**:
 
         $ dotnet run --framework net9.0-maccatalyst
 
-5. **Packages**:
-
-        $ dotnet add package Microsoft.EntityFrameworkCore.SqlServer
-        $ dotnet add package Microsoft.EntityFrameworkCore.Tools
-        # Create models for tables
-        $ dotnet ef dbcontext scaffold \
-                        "Server=localhost,1433;Database=tempdb;User Id=sa;Password=Narasimha@2025;Encrypt=False;TrustServerCertificate=True;" \
-                        Microsoft.EntityFrameworkCore.SqlServer \
-                        -o Models -f
-
-
-        $ dotnet aspnet-codegenerator controller \
-                        -name CustomersController \
-                        -m Customer \
-                        -dc TempdbContext \
-                        -outDir Controllers \
-                        -api \
-                        -async
+3. **Packages**:
 
 ## Project Structure
 
