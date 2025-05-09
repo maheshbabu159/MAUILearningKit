@@ -76,14 +76,175 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RAfCK/uHADZDu24Q3wySeKY8octLJL4BP6lhLCy/arM=
+			gxB7uka38Z2VEKrmv2PWodLDMWcCKavED1sTABF4plk=
 			</data>
 		</dict>
 		<key>MonoBundle/MAUILearningKit.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			X0fgAxqQB+igxcrCNcSXlZyDlCkc/krxxaH9oALlvMs=
+			jgR9AoGnVLPJgh3/KZEIQk/ntGCSvh78WwZJ1+endjg=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.AspNetCore.Authentication.Abstractions.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mbWffX8UxOrsMFJeZNQJZCO1gvTNaClvS0ddrNnAA7U=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.AspNetCore.Authorization.Policy.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+MMMPglFSaBGbFosVAnK1F5ZmzaQmC8SJ/4P8q/NnqI=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.AspNetCore.Authorization.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nJ5oiscJqXy90Yk3D/wCTAh3+Er8t2P7rY0D7dgzkUc=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.AspNetCore.Connections.Abstractions.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XWMEzVDNrZefUgF0Jeyd0dwySq5X5+vwk07GvxRDEec=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.AspNetCore.Hosting.Abstractions.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			urOODhEhK7WjFEupPR+FIG9Vn/tZmobCrXvbgyywlqY=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kbELdG9oQ6nDP/SO24QWADOjG5dfLUwfiBtqds90QMc=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.AspNetCore.Http.Abstractions.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cxtgwgQizlpnjsGlYMam4WcPDP+gGElxzxPPTgXXYkM=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.AspNetCore.Http.Connections.Client.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UPGIxpJhPW7QiAb3o44rnneNMg7ZJflhZWLwda2F0pQ=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.AspNetCore.Http.Connections.Common.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fUnSQ1mqrCwXA10JMxXrJRBiD6ENq470uTJOaXvCrbk=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.AspNetCore.Http.Connections.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			92xVV7Eow7qpcYXvXpHC7uasciqJdudUIPDMZMQ5SKM=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.AspNetCore.Http.Extensions.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1A87gqp73aSs3MsthYkJH0TI7LANqy3uwbPLTK8HC7s=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.AspNetCore.Http.Features.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nwPIsXboNyN7QOaUU+27PxIg480H38KRho38lzfPCjc=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.AspNetCore.Http.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PprPzXRbfVRwc1IgHrQJlJ5vrCZpJlpOhmfeNSZYxt8=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.AspNetCore.Routing.Abstractions.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xs+CKRXAtubbj6C3ds0P1m7xeJsfkUtIgPE77HNIbRo=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.AspNetCore.Routing.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Rlu/NmMMYuL//2eQ10e++AUmXAgpH7D+Igij5MdD4s8=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.AspNetCore.SignalR.Client.Core.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3eQJKBNOnYQdJPbMHdv69iHZbXbnuopVrtMoN1r/ZHg=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.AspNetCore.SignalR.Client.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			93jCpZu1rNTs7H2F8VYAwO09262I2UiKSdAOnzwnOQI=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.AspNetCore.SignalR.Common.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3aGow5lhmy0/02tsQDgmtId8JLFrB19CWtQQ8S0T02E=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.AspNetCore.SignalR.Core.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2yrOHG7Y6D7yKQCA3ybFbPSOemEo2QSw4C6K8Hcj5u0=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.AspNetCore.SignalR.Protocols.Json.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gQ5+pNhwj+JPkGjebw8Y0K06+nrnCSxbFFC3MohYUAk=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.AspNetCore.SignalR.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UMF/MKZvbJ7SvyI/123pJUBRJPFzSrFP5guTct26fvM=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.AspNetCore.WebSockets.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wJEcebhLSy08apHexLZm8Z878tQP19Oy6i0QNHdhmTA=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.AspNetCore.WebUtilities.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nhQO280iI7OH2q086KEh75GaFolA0++HxfL82nj7F74=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.CSharp.dll</key>
@@ -111,21 +272,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			maCPc6oVaMimFKxNdv4c+aJ+EPfAL5r9ZdosbiXW/wQ=
+			GQFCaU7pOPXs2I7blZI4lo5oz5dqgKbmXd1IivSfdEI=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.Extensions.DependencyInjection.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CcgMziExUs7XXXkfxP1Xs095ogJsadEzsDgPEBKAls4=
+			CX9MFa3dnPkhMDnfPS1aVTOIEdnyl6prWASFiva6tdE=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.Extensions.Diagnostics.Abstractions.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mGTbz9v+OVu9ZN7sdWj9rwy8OFDwzY9T5zWRib0VgII=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.Extensions.Features.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Lo6MWen81vFOgouIV/sAyXLcevDT0VN+qQkB7SXJjVI=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.Extensions.FileProviders.Abstractions.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8IsfWXq7NkerboRCgt7XY+YHjb723VS52VbKQZ+sQv4=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.Extensions.Hosting.Abstractions.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			J/B0lSAF90ujf8YnVmkCVeX3Q/8/dCb83rZaDW7J/3c=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.Extensions.Logging.Abstractions.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fF4NMTOktvNvUA5kG1uqEVp0fYxwm00bA4FJtZMfaq4=
+			+EIldfVZGyWnD00ypgbAmX/jsNA0ioFM5uUVR7VEbaY=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.Extensions.Logging.Debug.dll</key>
@@ -139,21 +328,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+u1stcnKDWB3/q6y3yUSUa3M8CQfeoC5HFjgFM1a1I8=
+			2TFE3DOEhoxT7qJgaVNAcqYPycX3BvjhHKtXFlZkiII=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.Extensions.ObjectPool.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8iZpeDi3toYsuvrc/AN9cRikpl50LzlJ08QulI603no=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.Extensions.Options.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HoMrzLGwLUVP82Ybk28FdnPTjRZ1M/R3M0ZBuf2inm8=
+			zuOjQyoufgMo1Jy6S/pX2BygWwsUgmzvvPaxmEFT4a0=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.Extensions.Primitives.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xtJ7PmPS6yMqL3Zqmps6hAyX+HuUyUOAksCaEKsLPEE=
+			6E7F9mJWEtZcnZGRT4zq9Of6iJbJjA9m8VpZ/5xrCYQ=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.MacCatalyst.dll</key>
@@ -212,6 +408,13 @@
 			XeNIDqMJualX3BaDI36xFsTe9dv4m2eEUzLGXUJ/1Mo=
 			</data>
 		</dict>
+		<key>MonoBundle/Microsoft.Net.Http.Headers.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3ka/URcuxi84edu4FXrvIaA+XRz7PFf8zqkozwRxcuI=
+			</data>
+		</dict>
 		<key>MonoBundle/Microsoft.VisualBasic.Core.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -259,6 +462,13 @@
 			<key>hash2</key>
 			<data>
 			KbcNdB/TXPypPGMySfx5RJUBC5r3UUkNOjZDofm7j3w=
+			</data>
+		</dict>
+		<key>MonoBundle/Newtonsoft.Json.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gkIipvi93hhq6PE+WvoKU82xCfBcfl2PTHNjD3enxt4=
 			</data>
 		</dict>
 		<key>MonoBundle/System.AppContext.dll</key>
@@ -744,6 +954,13 @@
 			KUz+ZlrdCZPCdtNeCF/8vM7XMwZDfQtKOjwCDi85fZg=
 			</data>
 		</dict>
+		<key>MonoBundle/System.Net.ServerSentEvents.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1c3nfcUEhw0Pa+Z70AhBRaWRxNCspf9G+rkL/0DStmo=
+			</data>
+		</dict>
 		<key>MonoBundle/System.Net.ServicePoint.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -784,6 +1001,13 @@
 			<key>hash2</key>
 			<data>
 			nonwmH5XdF5T+i1X47VeaLFFlGYh6i/PgWAZjss63po=
+			</data>
+		</dict>
+		<key>MonoBundle/System.Net.WebSockets.WebSocketProtocol.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wb2sd95VOxwzq0IxMACBajFgsZhRndNO2oz/W5Enrw4=
 			</data>
 		</dict>
 		<key>MonoBundle/System.Net.WebSockets.dll</key>

@@ -13,6 +13,14 @@ public partial class App : Application
 		Routing.RegisterRoute(nameof(AddCustomerPage), typeof(AddCustomerPage));
 		Routing.RegisterRoute(nameof(AddOrderPage), typeof(AddOrderPage));
 		Routing.RegisterRoute(nameof(BarcodeSannerPage), typeof(BarcodeSannerPage));
+
+		InitializeRealtimeServiceAsync();
+	}
+
+	private async void InitializeRealtimeServiceAsync()
+	{
+		var realtimeService = new RealtimeService();
+		await realtimeService.ConnectAsync();
 	}
 
 	protected override Window CreateWindow(IActivationState? activationState)

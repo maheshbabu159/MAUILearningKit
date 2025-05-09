@@ -1,6 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
 using CommunityToolkit.Maui;
-using ZXing.Net.Maui;
 
 namespace MAUILearningKit;
 
