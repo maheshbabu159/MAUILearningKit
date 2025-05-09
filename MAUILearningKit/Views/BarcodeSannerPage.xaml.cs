@@ -11,7 +11,7 @@ public partial class BarcodeSannerPage : ContentPage
     private void OnBarcodeDetected(object sender, BarcodeDetectionEventArgs e)
     {
         // Stop scanning
-        // barcodeReader.IsDetecting = false;
+        barcodeReader.IsDetecting = false;
 
         // Get scanned text
         var scannedText = e.Results.FirstOrDefault()?.Value;

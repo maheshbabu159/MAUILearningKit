@@ -23,10 +23,10 @@ public partial class AddOrderPage : ContentPage
         InitializeComponent();
     }
 
-    private void  OnAddScanButtonClicked(object sender, EventArgs e)
+    private async void  OnAddScanButtonClicked(object sender, EventArgs e)
     {    
         ShipNameEntry.Text = "Product Name";
-        // await Shell.Current.GoToAsync(nameof(BarcodeSannerPage));
+        await Shell.Current.GoToAsync(nameof(BarcodeSannerPage));
       
     }
     private async void OnAddOrderClicked(object sender, EventArgs e)

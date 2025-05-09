@@ -84,10 +84,7 @@
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../MAUILearningKit.app/Contents/MonoBundle/System.Net.WebSockets.WebSocketProtocol.dll
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../MAUILearningKit.app/Contents/MonoBundle/zxing.dll
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../MAUILearningKit.app/Contents/MonoBundle/ZXing.Net.MAUI.dll
-/Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../MAUILearningKit.app/Contents/MonoBundle/Microsoft.Maui.Controls.HotReload.Forms.dll
-/Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../MAUILearningKit.app/Contents/MonoBundle/Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
-/Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../MAUILearningKit.app/Contents/MonoBundle/Microsoft.VisualStudio.DesignTools.TapContract.dll
-/Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../MAUILearningKit.app/Contents/MonoBundle/Microsoft.VisualStudio.DesignTools.XamlTapContract.dll
+/Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../MAUILearningKit.app/Contents/MonoBundle/ZXing.Net.MAUI.Controls.dll
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../MAUILearningKit.app/Contents/MonoBundle/MAUILearningKit.dll
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../MAUILearningKit.app/Contents/MonoBundle/Microsoft.CSharp.dll
 /Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../MAUILearningKit.app/Contents/MonoBundle/Microsoft.VisualBasic.Core.dll

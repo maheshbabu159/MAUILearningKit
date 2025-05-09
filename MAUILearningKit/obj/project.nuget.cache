@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "S4SZbIjqwoE=",
+  "dgSpecHash": "BzV/m6lYc+c=",
   "success": true,
   "projectFilePath": "/Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/MAUILearningKit.csproj",
   "expectedPackageFiles": [
@@ -159,7 +159,8 @@
     "/Users/maheshbabusomineni/.nuget/packages/xamarin.kotlinx.serialization.core/1.7.3.2/xamarin.kotlinx.serialization.core.1.7.3.2.nupkg.sha512",
     "/Users/maheshbabusomineni/.nuget/packages/xamarin.kotlinx.serialization.core.jvm/1.7.3.2/xamarin.kotlinx.serialization.core.jvm.1.7.3.2.nupkg.sha512",
     "/Users/maheshbabusomineni/.nuget/packages/zxing.net/0.16.9/zxing.net.0.16.9.nupkg.sha512",
-    "/Users/maheshbabusomineni/.nuget/packages/zxing.net.maui/0.4.0/zxing.net.maui.0.4.0.nupkg.sha512"
+    "/Users/maheshbabusomineni/.nuget/packages/zxing.net.maui/0.4.0/zxing.net.maui.0.4.0.nupkg.sha512",
+    "/Users/maheshbabusomineni/.nuget/packages/zxing.net.maui.controls/0.4.0/zxing.net.maui.controls.0.4.0.nupkg.sha512"
   ],
   "logs": []
 }

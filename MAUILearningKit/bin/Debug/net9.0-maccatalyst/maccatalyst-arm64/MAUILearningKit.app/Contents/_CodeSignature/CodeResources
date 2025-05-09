@@ -76,14 +76,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gxB7uka38Z2VEKrmv2PWodLDMWcCKavED1sTABF4plk=
+			kYTshOSZLB0LBk9/H0tTRdh0sUdobXJ4vvMfQvjz6PY=
 			</data>
 		</dict>
 		<key>MonoBundle/MAUILearningKit.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jgR9AoGnVLPJgh3/KZEIQk/ntGCSvh78WwZJ1+endjg=
+			e9bNkYCqjztlqcezH7menCih/w75uu7PWBEBhjXlSjQ=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.AspNetCore.Authentication.Abstractions.dll</key>
@@ -1624,6 +1624,13 @@
 			<key>hash2</key>
 			<data>
 			h6dKA/ubPsDTUi438LJffVs6yLqzpG6lNH//a3jEfiA=
+			</data>
+		</dict>
+		<key>MonoBundle/ZXing.Net.MAUI.Controls.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bON6FLhiJa6s7swaSnGdmEZYE8OKrvpIlJYJQq1PKKA=
 			</data>
 		</dict>
 		<key>MonoBundle/ZXing.Net.MAUI.dll</key>

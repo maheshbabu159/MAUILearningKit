@@ -89,6 +89,10 @@
             "ZXing.Net.Maui": {
               "target": "Package",
               "version": "[0.4.0, )"
+            },
+            "ZXing.Net.Maui.Controls": {
+              "target": "Package",
+              "version": "[0.4.0, )"
             }
           },
           "imports": [
@@ -146,6 +150,10 @@
               "autoReferenced": true
             },
             "ZXing.Net.Maui": {
+              "target": "Package",
+              "version": "[0.4.0, )"
+            },
+            "ZXing.Net.Maui.Controls": {
               "target": "Package",
               "version": "[0.4.0, )"
             }
@@ -207,6 +215,10 @@
             "ZXing.Net.Maui": {
               "target": "Package",
               "version": "[0.4.0, )"
+            },
+            "ZXing.Net.Maui.Controls": {
+              "target": "Package",
+              "version": "[0.4.0, )"
             }
           },
           "imports": [
@@ -233,6 +245,15 @@
         }
       },
       "runtimes": {
+        "android-arm64": {
+          "#import": []
+        },
+        "android-x64": {
+          "#import": []
+        },
+        "iossimulator-arm64": {
+          "#import": []
+        },
         "maccatalyst-arm64": {
           "#import": []
         }
