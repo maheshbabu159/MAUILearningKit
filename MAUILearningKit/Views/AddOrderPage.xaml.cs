@@ -11,12 +11,15 @@ public partial class AddOrderPage : ContentPage
 
     private async void OnAddOrderClicked(object sender, EventArgs e)
     {
-        var newCustomer = new Customer
-        {
-            CustomerID = CustomerIDEntry.Text,
-            CompanyName = CompanyNameEntry.Text,
-            ContactName = "ContactNameEntry.Text",
-        };
+        // string shortGuid = Guid.NewGuid().ToString("N").Substring(0, 4);
+        // var newCustomer = new Order
+        // {
+        //     OrderID = shortGuid,
+        //     CustomerID = CustomerIdEntry.Text,
+        //     ShipCountry = ShipCountryEntry.Text,
+        //     ShipName = ShipNameEntry.Text,
+        //     OrderDate = DateTime.Now // Set the required OrderDate property
+        // };
 
         // TODO: Save to database or API
         // e.g., await _customerService.AddCustomerAsync(newCustomer);

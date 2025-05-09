@@ -2,19 +2,25 @@
     x:Class="MAUILearningKit.Views.AddOrderPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    Title="Add Order">
+    xmlns:viewmodels="clr-namespace:MAUILearningKit.ViewModels"
+    xmlns:models="clr-namespace:MAUILearningKit.Models"
+    x:DataType="viewmodels:CustomersViewModel"
 
+    Title="Add Order">
+    <ContentPage.BindingContext>
+        <viewmodels:CustomersViewModel />
+    </ContentPage.BindingContext>
     <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="15">
 
-            <Label Text="Order ID" />
-            <Entry x:Name="CustomerIDEntry" Placeholder="Enter ID" />
-
-            <Label Text="Ship Name" />
+            <Label Text="Company Name" />
             <Entry x:Name="CompanyNameEntry" Placeholder="Enter company name" />
 
+            <Label Text="Contact Name" />
+            <Entry x:Name="ContactNameEntry" Placeholder="Enter contact name" />
+
             <Button 
-                Text="Add Order"
+                Text="Add Customer"
                 BackgroundColor="DarkGreen"
                 TextColor="White"
                 Clicked="OnAddOrderClicked" />
