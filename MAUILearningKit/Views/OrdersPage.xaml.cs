@@ -28,6 +28,7 @@ namespace MAUILearningKit.Views
              // Load or bind orders based on _selectedCustomer.CustomerID
             if (_selectedCustomer != null)
             {
+                ViewModel.SelectedCustomer = _selectedCustomer;
                 await ViewModel.LoadOrdersAsync(_selectedCustomer);
             }
         }
@@ -44,9 +45,12 @@ namespace MAUILearningKit.Views
                     });
             }
         }
-         private async void OnAddOrderClicked(object sender, EventArgs e)
+        private async void OnAddOrderClicked(object sender, EventArgs e)
         {
-            await Shell.Current.GoToAsync(nameof(AddOrderPage));
+            await Shell.Current.GoToAsync(nameof(AddOrderPage), new Dictionary<string, object>
+            {
+                { "SelectedCustomer", _selectedCustomer ?? throw new InvalidOperationException("SelectedCustomer cannot be null") }
+            });
         }
     }
 }

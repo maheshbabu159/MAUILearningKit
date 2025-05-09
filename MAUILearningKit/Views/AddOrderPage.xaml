@@ -4,20 +4,21 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:viewmodels="clr-namespace:MAUILearningKit.ViewModels"
     xmlns:models="clr-namespace:MAUILearningKit.Models"
-    x:DataType="viewmodels:CustomersViewModel"
+    x:DataType="viewmodels:OrdersViewModel"
 
     Title="Add Order">
     <ContentPage.BindingContext>
-        <viewmodels:CustomersViewModel />
+        <viewmodels:OrdersViewModel />
     </ContentPage.BindingContext>
     <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="15">
-
-            <Label Text="Company Name" />
-            <Entry x:Name="CompanyNameEntry" Placeholder="Enter company name" />
-
-            <Label Text="Contact Name" />
-            <Entry x:Name="ContactNameEntry" Placeholder="Enter contact name" />
+            <Button 
+                Text="Scan Barcode for Product Details"
+                BackgroundColor="DarkGreen"
+                TextColor="White"
+                Clicked="OnAddScanButtonClicked" />
+            <Label Text="Product Name" />
+            <Entry x:Name="ShipNameEntry" Placeholder="Enter ship name" />
 
             <Button 
                 Text="Add Customer"

@@ -1,0 +1,16 @@
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:zxing="clr-namespace:ZXing.Net.Maui;assembly=ZXing.Net.MAUI"
+    x:Class="MAUILearningKit.Views.BarcodeSannerPage"
+    x:Name="BarcodeScannerPage"
+    Title="Scan Product">
+    
+    <!-- <zxing:CameraBarcodeReaderView 
+        x:Name="barcodeReader"
+        BarcodeDetected="OnBarcodeDetected"
+        IsDetecting="true"
+        IsTorchOn="false"
+        HorizontalOptions="FillAndExpand"
+        VerticalOptions="FillAndExpand" /> -->
+</ContentPage>

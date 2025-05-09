@@ -2,7 +2,6 @@ using MAUILearningKit.Models;
 
 namespace MAUILearningKit.Services;
 using System.Net.Http.Json;
-using System.Collections.ObjectModel;
 using System.Text.Json;
 
 public class ApiService
@@ -45,6 +44,13 @@ public class ApiService
     public async Task<bool> AddCustomerAsync(Customer customer)
     {
         var response = await _httpClient.PostAsJsonAsync("api/customers", customer);
+        return response.IsSuccessStatusCode; // Returns true if the POST was successful
+    }
+
+
+    public async Task<bool> AddOrderAsync(Order order)
+    {
+        var response = await _httpClient.PostAsJsonAsync("api/orders", order);
         return response.IsSuccessStatusCode; // Returns true if the POST was successful
     }
     public void Dispose()

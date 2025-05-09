@@ -59,6 +59,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MAUILearningKit.Views.AddO
 build_metadata.AdditionalFiles.TargetPath = Views/AddOrderPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views/AddOrderPage.xaml
 
+[/Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/Views/BarcodeSannerPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUILearningKit.Views.BarcodeSannerPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/BarcodeSannerPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/BarcodeSannerPage.xaml
+
 [/Users/maheshbabusomineni/Desktop/workspace/MAUILearningKit/MAUILearningKit/Views/CustomersPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MAUILearningKit.Views.CustomersPage.xaml
